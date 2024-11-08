@@ -53,8 +53,8 @@ python src/run.py
 The server will start running locally at `http://127.0.0.1:3001`.
 
 ### 6. API Endpoints
-POST /api/posts/generate: Create a new tech post using GeminiAI (or OpenAI by modifying the controller) ❗This endpoint is not currently working❗.
-GET /api/posts/history: Retrieve all generated tech posts, sorted by the creation date. ✅ This endpoint is currently working ✅ .
+- POST /api/posts/generate: Create a new tech post using GeminiAI (or OpenAI by modifying the controller) ❗This endpoint is not currently working❗.
+- GET /api/posts/history: Retrieve all generated tech posts, sorted by the creation date. ✅ This endpoint is currently working ✅ .
 ### 7. Test the API
 You can test the endpoints using tools like Postman or curl.
 
