@@ -50,7 +50,7 @@ To run the Flask application locally, use the following command:
 ```bash
 python src/run.py
 ```
-The server will start running locally at `http://127.0.0.1:5000`.
+The server will start running locally at `http://127.0.0.1:3001`.
 
 ### 6. API Endpoints
 POST /api/posts/generate: Create a new tech post using GeminiAI (or OpenAI by modifying the controller) ❗This endpoint is not currently working❗.
@@ -61,5 +61,5 @@ You can test the endpoints using tools like Postman or curl.
 Example: Get Post History
 
 ```bash
-curl http://127.0.0.1:5000/api/posts/history
+curl http://127.0.0.1:3001/api/posts/history
 ```
